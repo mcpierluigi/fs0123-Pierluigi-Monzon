@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- come fare un form-->
+    <form>
+
+        <input type="text" required name="nome" placeholder="Nome">
+        <input type="text" name="cognome" value="Cognome">
+        <input type="text" name="e-mail" value="E-Mail">
+        <!-- placeholder compare in grigio e poi scompare visualizzabile dal utente-->
+        <!-- ci posso scrivere dentro e l'attributo è importante -->
+
+        <input type="text" name="classe" value="fs0123" readonly disabled>
+        <!-- il value è un valore pre compilato dentro la tabella -->
+
+        <label for="consenso">Accetto il trattamento dei dati</label>/label>
+        <input type="checkbox" name="conseso" id="consenso">
+        <!-- casella selezionabile, non importa dove la metto -->
+        <!--l'attributo required è un campo che diventa obbligatorio-->
+
+        <select name="city">
+            <option value="">--scegli--</option>
+            <option= value="roma">Roma</option>
+            <option value="milano">Milano</option>
+            <option value="napoli">Napoli</option>
+        </select>
+        <!--roma, milano, napoli sono le informazioni inviate,
+        quelle in maiuscolo sono le opzioni che vede l'utente-->
+
+        <textarea name="messaggio" cols="30" rows="10"></textarea>
+        <!-- area di testocompilabile con massimo 30 caratterie-->
+
+        <button>Invia</button> <!-- bottone con su scritto invia -->
+        <input type="submit" value="Salva">
+
+    </form>
+
+    <!-- tag audio e video, le source sono 2 mp3.;ogg.-->
+    <video>
+        <source src="" type="">
+    </video>
+
+    <audio>
+        <source src="" type="">
+    </audio>
+    <!-- la source è la sorgente e il type è il tipo di file, il 
+    browser oggi proverà ad aprire il file ch la macchina è in grado
+    di aprire questo il browser -->
+
+    <iframe src="https://wwww.w3.org/" width="700" height="500"></iframe>
+    <!-- utilizzato per visulizzare un sito da una pagina, diventa 
+    navigabile; nb: YouTube vuole che si usino i suoi iframe.
+    es: oggi utilizzato più per la mappa di google-->
+
+    <!-- contenitori -->
+    
+</body>
+</html>
