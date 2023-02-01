@@ -1,0 +1,23 @@
+
+/*questo è un commento su un file css*/
+
+/* scheletro di uno stile:
+
+selettore{
+    proprietà/regola : valore ;
+    }
+    */
+div{
+    color:red;
+    background-color: blue;
+}
+
+/*voglio questo stile solo su span figlio di div*/
+div span{
+    color:white;
+}
+
+/*la virgola ti dice voglio questo su più selettori*/
+div, span{
+    border: 1px solid black;
+}

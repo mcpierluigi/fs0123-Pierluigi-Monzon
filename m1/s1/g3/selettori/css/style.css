@@ -1,0 +1,18 @@
+
+/*il cancelletto sta per l'id che è univoco, gli id si usano poco
+perchè sono elementi appunto unici*/
+#rosso{
+    background-color: red;
+}
+
+/* il puntino sta per classe che può essere usato più volte*/
+.giallo{
+    background-color: yellow;
+}
+
+#conflitti{
+    background-color: red;
+}
+
+#conflitti .verde{ color: green;
+}

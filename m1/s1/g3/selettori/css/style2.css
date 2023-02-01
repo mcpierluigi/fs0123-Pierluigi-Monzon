@@ -1,0 +1,38 @@
+
+/*questo modifica assoultamente tutti i font del body
+body{
+    font-size: 20px
+}
+*/
+
+/*in font-family metto "il nome che voglio io" attaccato
+e su src ../fonts/modern-prestige-DEMO.otf che è il font
+che ho scaricato e messo su fonts */
+
+/*@font-face{
+    font-family: 
+    src: url() format(''),
+         url() format('');
+}*/
+
+
+:root{
+    font-size: 25px;
+}
+
+#t1{
+    font-size: 2rem; /* il rem è l'unità di misura che scrivo nel :root */
+    color: #fc7
+    
+    /* font-family: "il nome che voglio io" */
+}
+#t2{
+    font-size: 16px;
+    color: rgba(0,0,0,0.5);
+    text-align: center;
+}
+
+#parent{
+    font-size: 50px
+}
+

@@ -1,0 +1,56 @@
+header{
+    text-align:center;
+}
+
+header p{
+    background-color: blanchedalmond;
+    color:#023445;
+}
+
+header span{
+    line-height: 2px;
+}
+
+
+#titolo{
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+#img-caption{
+    text-align:center;
+}
+
+figcaption{
+    opacity: 0.5;
+}
+
+#featured{
+    border-left: 3px solid orange;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+#ft{
+    color: orange;
+}
+
+#cranberry{
+    color:#023445
+}
+
+h2{
+    border-bottom: 1px solid;
+}
+
+ul{
+    line-height: 2;
+}
+
+#simply{
+    color:#023445
+}
+
+#ingredienti{
+    margin-right: 20%;
+    margin-left: 20%;
+}
