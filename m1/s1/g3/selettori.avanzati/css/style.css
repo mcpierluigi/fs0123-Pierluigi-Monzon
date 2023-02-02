@@ -1,0 +1,46 @@
+section > span{
+    text-decoration: line-through;
+}
+/*il simbolo maggiore di indica che questo stile si 
+applica solo ai figli direttidella section, diciamo
+figli di primo livello, in questo caso solo il 
+primo span*/
+
+section + small{
+    font-weight: bold;
+}
+/*prende solo il primo small dopo la section*/
+
+section ~ small{
+    color: red
+}
+/*prende tutti gli small dopo la section*/
+
+#toggle{
+    display: none;
+}
+
+#menu{
+    background-color: bisque;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s;
+}
+
+#toggle:checked + #menu{
+    height:70px
+}
+/*esempio menu mobile pure css*/
+/*#toggle:checked gli input che sono selezionati*/
+
+/*effetti nello status hover (quando ci passo sopra)*/
+#menu li:hover{
+    background-color: white;
+}
+
+/*concatenazione di cose*/
+a, a:visited, a:active{
+    color: black;
+    text-decoration: none;
+}
+
