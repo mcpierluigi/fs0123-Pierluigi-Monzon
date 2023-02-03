@@ -24,14 +24,18 @@ header img{
 /* MAIN */
 .intro{
     background-image: url(../images/banner.jpg);
-    margin-bottom: 2 rem;
-    padding: 2rem;
+    margin-bottom: 2rem;
+    padding: 3.5rem;
 }
   
 .titolo{
     color:#42a6ca;
-    font-size: 2rem;
+    font-size: 3rem;
     font-family: "Montserrat";
+    margin-bottom: 2rem;
+}
+
+.intro > .paragrafo{
     margin-bottom: 2rem;
 }
 
@@ -40,15 +44,17 @@ header img{
     font-size: 1.4rem;
 }
 
-.paragrafetto{
-    padding: 0 1rem;
+.paragrafo .paragrafetto{
+    padding: 0 2rem;
 }
 
 .intro .partiamo{
     background-color: #ee5035;
     color: white;
     font-family: "Montserrat";
-    margin: 2rem 7rem;
+    border-radius: 5%;
+    margin: 0 auto;
+    width: 7rem;
     padding: 1rem 1rem;
 }
 
@@ -87,27 +93,28 @@ header img{
     color: white;
     font-style: italic;
     line-height: 1.5rem;
+    font-size: 1.2rem
 }
 
 .firma{
     color: white;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin-top: 2rem;
 }
 
 .info{
     color: white;
-    font-size: 0.8rem;
+    font-size: 1rem;
     margin-top: 0.5rem;
-    margin-bottom:1rem;
+    margin-bottom: 1rem;
 }
 
 /*ASIDE*/
 .articolo{
     border: solid 0.5px lightgrey;
-    max-width: 600px;
-    margin: 0 auto;
-    margin-bottom: 2rem;
+    max-width: 450px;
+    margin:  0 auto;
+    margin-bottom: 3rem;
 }
 
 .articolo img{
