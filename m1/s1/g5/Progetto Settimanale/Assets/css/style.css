@@ -1,13 +1,11 @@
 /* IMPOSTAZIONI GENERALI */
-
-
 body{
     font-family: "Open Sans", sans-serif;
 }
 
 .todo{
     text-align: center;
-    max-width: 450px;
+    min-width: 450px;
     margin: 0 auto;
 }
 
@@ -68,7 +66,6 @@ header img{
 }
 
 .computer img{
-    width: 100%;
     border-radius: 100%;
     margin: 2rem 0;
 }
@@ -108,13 +105,14 @@ header img{
 /*ASIDE*/
 .articolo{
     border: solid 0.5px lightgrey;
-    width: 400px;
+    max-width: 600px;
     margin: 0 auto;
     margin-bottom: 2rem;
 }
 
 .articolo img{
     width: 100%;
+    box-sizing: border-box;
 }
 
 .articolo > .titoletto{
