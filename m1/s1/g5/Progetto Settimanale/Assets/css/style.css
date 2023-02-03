@@ -1,4 +1,6 @@
 /* IMPOSTAZIONI GENERALI */
+
+
 body{
     font-family: "Open Sans", sans-serif;
 }
@@ -8,8 +10,6 @@ body{
     max-width: 450px;
     margin: 0 auto;
 }
-
-
 
 /* HEADER */
 header{
@@ -26,8 +26,8 @@ header img{
 /* MAIN */
 .intro{
     background-image: url(../images/banner.jpg);
-    padding: 3rem;
     margin-bottom: 2 rem;
+    padding: 2rem;
 }
   
 .titolo{
@@ -38,16 +38,20 @@ header img{
 }
 
 .paragrafo{
-    line-height: 2rem;
+    line-height: 2.5rem;
     font-size: 1.4rem;
 }
 
-.partiamo{
+.paragrafetto{
+    padding: 0 1rem;
+}
+
+.intro .partiamo{
     background-color: #ee5035;
     color: white;
     font-family: "Montserrat";
-    margin: 2rem 0;
-    padding: 1rem;
+    margin: 2rem 7rem;
+    padding: 1rem 1rem;
 }
 
 .paragrafo .titoletto1{
@@ -104,7 +108,8 @@ header img{
 /*ASIDE*/
 .articolo{
     border: solid 0.5px lightgrey;
-    width: 425px;
+    width: 400px;
+    margin: 0 auto;
     margin-bottom: 2rem;
 }
 
@@ -147,9 +152,11 @@ ul{
 .copyright{
     border-top: solid 0.5px white;
     padding-top: 2rem;
+    margin: 0 7rem;
 }
 
 .copyright > a{
     text-decoration: none;
+    text-decoration: underline;
     color: white;
 }
