@@ -24,7 +24,7 @@ es. var esempio = true/false */
  Crea una variable chiamata "name" e assegna ad essa il tuo nome, sotto forma di stringa.
  */
 
-var name = 'Pierluigi';
+let name = 'Pierluigi';
 console.log(name);
 
 /* ESERCIZIO 3
@@ -50,7 +50,7 @@ console.log(x);
   Dimostra l'impossibilità di riassegnare un valore ad una variabile dichiarata con il costrutto const.
 */
 
-var name = 'Monzon';
+name = 'Monzon';
 {
 const name = 'Cuadrado';
 console.log(name)
