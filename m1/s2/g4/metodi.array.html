@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //i metodi permettono di richiamare un funzione
+        //più o meno quello che faceva il for of (di solito è più efficiente)
+        //il for each serve a ciclare gli array
+
+        let pizze = ['Margherita','Diavola','Marinara','Mimosa'];
+
+        console.log(pizze);
+
+        //map si usa quando dobbiamo effetuare una modifica a livello dei dati
+        //ad ogni elemento dell'array
+
+        let pizzeDiv = pizze.map(function(valore){
+            return `<div>${valore}</div>`
+        })
+
+        console.log(pizzeDiv);
+
+        pizze.forEach(function(valore /*, i facoltativo*/){
+            document.write(valore)
+        })
+
+        //altro es.map
+
+        let numeri = [1,2,3,4,5,6];
+        let numerix2 = numeri.map(function(n){
+            return n * 2;
+        })
+        console.log(numeri);
+
+        //reduce
+        numeri = [1,2,3,4,5,6]
+        let somma = numeri.reduce(function(p,c){
+            return p + c;
+        })
+        
+        console.log(somma);
+
+        //reduce usato come filtro, permette di confronare
+        numeri = [1,2,3,4,5,6];
+        let numeroGrande = numeri.reduce(function(p,c){
+            if(p > c){
+                return p;
+            }else{
+                return c;
+            }
+        })
+
+        console.log(numeroGrande);
+
+        //Eliminare da un array
+        
+        //andando per esclusione
+        pizze = ['Margherita','Diavola','Marinara','Mimosa'];
+        pizze = pizze.filter(function(p){
+            return p != 'Mimosa';
+        })
+        console.log(pizze);
+
+        //eliminazione diretta
+        pizze = ['Margherita','Diavola','Marinara','Mimosa'];
+        let indice = pizze.indexOf('Marinara'); //trova la marinara e mi dice il suo indice(posizione)
+
+        pizze.splice(indice,1); //elimino la piazza Marinara
+
+        //eliminazione di array di oggetti
+        //find.index ti aiuta ad eliminare più capillarmente
+        pizze = [
+            {
+                gusto : 'Margherita',
+                prezzo : 5,
+                disponibile : true
+            },
+            {
+                gusto : 'Diavola',
+                prezzo : 5,
+                disponibile : true
+            },
+            {
+                gusto : 'Hawayana',
+                prezzo : 5,
+                disponibile : false
+            },
+            ]
+
+            let index = pizze.findIndex(function(p){
+                return p.disponibile ===false //!p.disponibile
+            })
+
+            console.log(index);
+            console.splice(index,1);
+            console.log(pizze);
+
+    </script>
+</body>
+</html>
