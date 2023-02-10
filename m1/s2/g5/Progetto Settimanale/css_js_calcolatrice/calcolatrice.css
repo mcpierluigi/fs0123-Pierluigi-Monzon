@@ -1,0 +1,22 @@
+
+.tasto {
+    background-color: lightgrey ;
+    color: blue;
+    font-size: 2rem;
+    margin: 4px 2px;
+    height: 40px;
+    width: 46px;
+}
+
+.display {
+    color: blue;
+    font-size: 2rem;
+    border: lightblue solid 2px;
+    margin: 0 auto;
+    width: 12.5rem;
+    height: 40px;            
+}
+
+.uguale {
+    width: 12.5rem;
+}
