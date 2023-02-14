@@ -148,5 +148,7 @@ function giveMeRandom(r){
     for(let i = 0; i < r; i++){
         random.push(Math.floor(Math.random() * 11));
     }
+    return random;
 }
 
+console.log(giveMeRandom(23));
